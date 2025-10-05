@@ -3,6 +3,7 @@
 *.tfstate
 *.tfstate.*
 .terraform.lock.hcl
+.terraform
 
 # Sensitive files
 *.pem

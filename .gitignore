@@ -1,17 +1,16 @@
-# Terraform directories and files
+# Terraform junk
 .terraform/
 *.tfstate
 *.tfstate.*
-.terraform.lock.hcl
-.terraform
+*.backup
+*.lock.hcl
 
-# Sensitive files
+# Sensitive keys
 *.pem
 *.key
 *.env
 
-# Editor and OS clutter
+# Editor clutter
 .vscode/
 .idea/
 .DS_Store
-.gitignore

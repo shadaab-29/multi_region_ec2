@@ -4,7 +4,9 @@
 *.tfstate.*
 *.backup
 *.lock.hcl
-
+.terraform.lock.hcl
+.gitignore
+git-filter-repo.py
 # Sensitive keys
 *.pem
 *.key

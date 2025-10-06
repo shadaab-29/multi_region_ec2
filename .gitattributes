@@ -1,0 +1,16 @@
+# Treat Terraform files as text
+*.tf text
+*.tfvars text
+*.hcl text
+
+# Treat Markdown and documentation files as text
+*.md text
+*.txt text
+
+# Normalize shell scripts
+*.sh text eol=lf
+
+# Ignore binary formatting
+*.zip binary
+*.tar binary
+*.gz binary
